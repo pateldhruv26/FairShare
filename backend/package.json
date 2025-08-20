@@ -1,0 +1,43 @@
+{
+  "name": "fair-share-backend",
+  "version": "1.0.0",
+  "description": "Backend API for FairShare expense management app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "serve": "nodemon server.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@react-oauth/google": "^0.11.1",
+    "axios": "^1.6.0",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "google-auth-library": "^9.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.2.0",
+    "mongoose": "^8.0.0",
+    "node-fetch": "^3.3.2",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.7",
+    "nodemailer-sendmail-transport": "^1.0.2",
+    "nodemon": "^3.1.2",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-google-oauth20": "^2.0.0",
+    "sendmail": "^1.6.1",
+    "socket.io": "^4.7.2",
+    "splitwise-js-map": "^1.0.3"
+  },
+  "keywords": ["nodejs", "express", "mongodb", "api", "fair-share"],
+  "author": "Your Name",
+  "license": "MIT"
+}
