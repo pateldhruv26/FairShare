@@ -9,8 +9,6 @@ FairShare is a comprehensive expense management application built with the MERN 
 - **Savings Goals**: Set and track your savings targets
 - **Debt Management**: Keep track of who owes you and whom you owe
 - **Charts & Analytics**: Visualize your spending patterns
-- **Stock Portfolio**: Track your investments
-- **Vault**: Secure storage for important documents
 - **Email Notifications**: Get reminders for dues and payments
 - **Multi-language Support**: Internationalization support
 - **Dark/Light Theme**: Toggle between themes
@@ -24,7 +22,6 @@ FairShare is a comprehensive expense management application built with the MERN 
 - **Chart.js** - Data visualization
 - **Axios** - HTTP client
 - **React Router** - Navigation
-- **Socket.io Client** - Real-time communication
 
 ### Backend
 - **Node.js** - Runtime environment
@@ -33,7 +30,6 @@ FairShare is a comprehensive expense management application built with the MERN 
 - **Mongoose** - ODM for MongoDB
 - **JWT** - Authentication
 - **Nodemailer** - Email service
-- **Socket.io** - Real-time communication
 - **Passport.js** - Authentication middleware
 
 ## Prerequisites
@@ -116,19 +112,3 @@ fair-share/
 │   └── package.json
 └── package.json       # Root package.json
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License.
-
-## Support
-
-For support, email support@fairshare.com or create an issue in the repository.
