@@ -69,21 +69,6 @@ FairShare is a comprehensive expense management application built with the MERN 
 
    This will start both frontend (port 3000) and backend (port 3001) servers.
 
-## Deployment
-
-### Frontend (Vercel)
-1. Push your code to GitHub
-2. Connect your repository to Vercel
-3. Set the **Root Directory** to `frontend`
-4. Set the **Build Command** to `npm run build`
-5. Set the **Output Directory** to `build`
-6. Add environment variables in Vercel dashboard
-
-### Backend (Render/Railway/Heroku)
-1. Deploy the backend to your preferred platform
-2. Update the frontend API base URL to point to your deployed backend
-3. Set environment variables in your hosting platform
-
 ## Environment Variables
 
 ### Backend (.env)
